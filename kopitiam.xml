@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="Changcheng Kopitiam"
+        android:textStyle="bold"
+        android:textSize="20dp">
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/changcheng"
+        ></ImageView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="A familiar Kopitiam chain in Singapore known for her mix vegetable rice and Rongji Roast Meat"
+        android:textStyle="normal"
+        android:textSize="14dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="City Food Court"
+        android:textStyle="bold"
+        android:textSize="20dp">
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/cityfoodcourt"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="Just beside Chang Cheng, having a Michelin Bak Chor Mee branch"
+        android:textStyle="normal"
+        android:textSize="14dp">
+    </TextView>
+
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back To Main Menu"
+       />
+
+</LinearLayout>
