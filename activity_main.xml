@@ -32,6 +32,14 @@
             android:layout_width="200dp">
 
         </Button>
+
+        <Button
+            android:id="@+id/fastfood"
+            android:text="Fastfood"
+            android:layout_height="50dp"
+            android:layout_width="200dp">
+
+        </Button>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

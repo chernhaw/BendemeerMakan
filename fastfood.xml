@@ -9,15 +9,15 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:fontFamily="sans-serif-medium"
-        android:text="Changcheng Kopitiam"
+        android:text="McDonalds"
         android:textStyle="bold"
         android:textSize="20dp">
     </TextView>
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:src="@drawable/changcheng"
+        android:layout_height="150dp"
+        android:src="@drawable/mcdonalds"
         ></ImageView>
 
 
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:fontFamily="sans-serif-medium"
-        android:text="A familiar Kopitiam chain in Singapore known for her mix vegetable rice and Rongji Roast Meat, located at Bemdemeer Mall"
+        android:text="An McDonald's at Blk 22 just beside Boon Keng MRT."
         android:textStyle="normal"
         android:textSize="14dp">
     </TextView>
@@ -36,15 +36,15 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:fontFamily="sans-serif-medium"
-        android:text="City Food Court"
+        android:text="KFC"
         android:textStyle="bold"
         android:textSize="20dp">
     </TextView>
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:src="@drawable/cityfoodcourt"
+        android:layout_height="150dp"
+        android:src="@drawable/kfc"
         ></ImageView>
 
     <TextView
@@ -52,7 +52,33 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:fontFamily="sans-serif-medium"
-        android:text="Just beside Chang Cheng at Bendemeer Mall, having a Michelin Bak Chor Mee branch"
+        android:text="Colonel's secret recipe, just across the road from McDonalds"
+        android:textStyle="normal"
+        android:textSize="14dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="Subway"
+        android:textStyle="bold"
+        android:textSize="20dp">
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/subway"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="A healthier option for fast food, located at Bendemeer Mall."
         android:textStyle="normal"
         android:textSize="14dp">
     </TextView>
