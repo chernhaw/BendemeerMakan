@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,7 +8,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:fontFamily="sans-serif-medium"
-        android:text="Xing Hua Family Restaurant"
+        android:text="Lau Ah Tee and Casper Seafood"
         android:textStyle="bold"
         android:textSize="20dp">
     </TextView>
@@ -17,7 +16,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:src="@drawable/xinghuafamily"
+        android:src="@drawable/lauahtee"
         ></ImageView>
 
 
@@ -26,7 +25,18 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:fontFamily="sans-serif-medium"
-        android:text="Located just across Blk 34 Whampoa West at Blk 102 is a Xing Hua Restaurant"
+        android:text="A Kopitiam that sells Bak Ku Teh and Teochew seafood, located at Blk 34 Whampoa West"
+        android:textStyle="normal"
+        android:textSize="14dp">
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="You can also order Zhar Char at Casper seafood, try their chilli craps and curry fishhead"
         android:textStyle="normal"
         android:textSize="14dp">
     </TextView>
@@ -36,7 +46,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:fontFamily="sans-serif-medium"
-        android:text="Ban Heng"
+        android:text=""
         android:textStyle="bold"
         android:textSize="20dp">
     </TextView>
@@ -44,7 +54,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:src="@drawable/banheng"
+        android:src="@drawable/casper"
         ></ImageView>
 
     <TextView
@@ -52,38 +62,27 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:fontFamily="sans-serif-medium"
-        android:text="Another Chinese restaurant just beside McDonalds Blk 22 "
-        android:textStyle="normal"
-        android:textSize="14dp">
+        android:text="Chang Long"
+        android:textStyle="bold"
+        android:textSize="20dp">
     </TextView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+
         android:fontFamily="sans-serif-medium"
-        android:text="R and J Corner"
-        android:textStyle="bold"
-        android:textSize="20dp">
+        android:text="More Zhar Char at Chang Long at Blk 24, you can get roasted duck rice and wonton mee"
+        android:textStyle="normal"
+        android:textSize="14dp">
     </TextView>
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:src="@drawable/cozycorner"
+        android:src="@drawable/changlong"
         ></ImageView>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:fontFamily="sans-serif-medium"
-        android:text="A Vegetarian restaurant that sell Zhi Char."
-        android:textStyle="normal"
-        android:textSize="14dp">
-    </TextView>
-
-
 
     <Button
         android:id="@+id/back"
@@ -91,7 +90,6 @@
         android:layout_height="wrap_content"
         android:text="Back To Main Menu"
         />
-
 
 
 </LinearLayout>

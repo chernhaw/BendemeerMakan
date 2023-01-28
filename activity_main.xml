@@ -13,39 +13,61 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="250dp"
             android:src="@drawable/bendemeermarketentrance"
             ></ImageView>
 
         <Button
             android:id="@+id/kopitiam"
-            android:text="Kopitiam"
-            android:layout_height="50dp"
-            android:layout_width="200dp">
+            android:text="Kopitiam (Bendemeer Mall)"
+            android:layout_height="60dp"
+            android:layout_width="250dp"
+            android:layout_gravity="center">
+
+        </Button>
+
+        <Button
+            android:id="@+id/morekoptiam"
+            android:text="More Kopitiam (Blk 34 Whampoa West)"
+            android:layout_height="60dp"
+            android:layout_width="250dp"
+            android:layout_gravity="center">
 
         </Button>
 
         <Button
             android:id="@+id/market"
             android:text="Market"
-            android:layout_height="50dp"
-            android:layout_width="200dp">
+            android:layout_height="60dp"
+            android:layout_width="250dp"
+            android:layout_gravity="center">
 
         </Button>
 
         <Button
             android:id="@+id/restaurant"
             android:text="Restaurants"
-            android:layout_height="50dp"
-            android:layout_width="200dp">
+            android:layout_height="60dp"
+            android:layout_width="250dp"
+            android:layout_gravity="center">
+
+        </Button>
+
+        <Button
+            android:id="@+id/morerestaurant"
+            android:text="More Restaurants (Blk 34 Whampoa West)"
+            android:layout_height="60dp"
+            android:layout_width="250dp"
+            android:layout_gravity="center">
 
         </Button>
 
         <Button
             android:id="@+id/fastfood"
             android:text="Fastfood"
-            android:layout_height="50dp"
-            android:layout_width="200dp">
+            android:layout_height="60dp"
+            android:layout_width="250dp"
+            android:layout_gravity="center">
 
         </Button>
     <TextView
