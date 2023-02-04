@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="Lai Wah Restaurant"
+        android:textStyle="bold"
+        android:textSize="20dp">
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/laiwah"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="Located at Blk 44 Bendmeer, north of Blk 34 Whampoa West. A traditional Chinese Restaurant that pioneer many dishes back in the 1960s, their roasted chicken is the best"
+        android:textStyle="normal"
+        android:textSize="14dp">
+    </TextView>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="Dignity Kitchen"
+        android:textStyle="bold"
+        android:textSize="20dp">
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/dignity"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="Nearby Cozy Corner at the Redhouse. A social enterprise to train the next generation of hawkers to continue Singapore's Unesco Heritage"
+        android:textStyle="normal"
+        android:textSize="14dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back To Main Menu"
+        />
+
+</LinearLayout>
